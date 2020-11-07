@@ -1,5 +1,5 @@
 ---
-Logo: image/elefantheadernew.jpg
+Logo: image/testbild.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
