@@ -17,14 +17,15 @@ body {
 
 .site-header {
     flex: 0 0 auto;
-    background-color: #e74c3c;
-    color: #2b2e30;
+    background-color: #1F3300;
+    color: #EFEFEF;
     padding: 0 2em;
 }
 
 .site-header a, .site-header a:visited {
-    color: #2b2e30;
+    color: #EFEFEF;
 }
+
 
 /* Main */
 
@@ -37,8 +38,8 @@ body {
 
 .site-footer {
     flex: 0 0 auto;
-    background: #e74c3c;
-    color: #2b2e30;
+    background: #1F3300;
+    color: #EFEFEF;
     padding: 2em;
 }
 
