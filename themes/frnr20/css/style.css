@@ -26,11 +26,14 @@ body {
     color: #EFEFEF;
 }
 
+.logo {
+    float: left;
+}
+
 .flash-region {
     margin-top: 1em;
     margin-bottom: 1em;
     width: 100%;
-    background: blue;
     border-radius: 1em;
 }
 
@@ -44,8 +47,18 @@ body {
 /* Main */
 
 .main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
     flex: 1 0 auto;
     padding: 2em;
+}
+
+p {
+    padding: 1em;
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 /* Footer */
@@ -55,8 +68,13 @@ body {
     background: #94B9D5;
     color: #EFEFEF;
     padding: 2em;
+    text-align: center;
 }
 
 .site-footer a {
-    color: #f0f0f0;
+    color: #000000;
+}
+
+.site-footer p {
+    text-align: center;
 }

@@ -20,14 +20,14 @@
 }
 
 #nav {
-    padding: 3em 0;
+    padding: 3em;
     text-align: right;
 }
 
 #nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
 }
 
 #nav ul li {
