@@ -17,7 +17,7 @@ body {
 
 .site-header {
     flex: 0 0 auto;
-    background-color: #1F3300;
+    background-color: #94B9D5;
     color: #EFEFEF;
     padding: 0 2em;
 }
@@ -26,6 +26,20 @@ body {
     color: #EFEFEF;
 }
 
+.flash-region {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    background: blue;
+    border-radius: 1em;
+}
+
+.flash-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
 
 /* Main */
 
@@ -38,7 +52,7 @@ body {
 
 .site-footer {
     flex: 0 0 auto;
-    background: #1F3300;
+    background: #94B9D5;
     color: #EFEFEF;
     padding: 2em;
 }
