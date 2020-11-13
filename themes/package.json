@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
     "style": "sass frnr20/scss/style.scss frnr20/css/style.css --no-source-map",
-    "style-min": "frnr20/scss/style.scss frnr20/css/style.min.css --no-source-map --style compressed"
+    "style-min": "sass frnr20/scss/style.scss frnr20/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
