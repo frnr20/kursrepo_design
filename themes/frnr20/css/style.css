@@ -731,6 +731,17 @@ p {
     padding: 0;
   }
 
+  .logo {
+    float: none;
+  }
+
+  .logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
+
   .flash-region {
     width: auto;
   }
@@ -758,20 +769,21 @@ h6 {
   .nav {
     clear: both;
     padding: 0;
+    text-align: left;
   }
 
   .nav ul {
+    list-style-type: square;
     padding-bottom: 1em;
+    text-align: left;
   }
 
   .nav ul li {
-    display: block;
     margin-left: 0;
     text-align: center;
   }
 
   .nav ul li a {
-    display: block;
     padding: 0.5em 0;
   }
 }
