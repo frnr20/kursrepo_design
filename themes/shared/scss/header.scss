@@ -1,0 +1,31 @@
+/* Header */
+
+.site-header {
+    flex: 0 0 auto;
+    background-color: $topbottom-color;
+    color: #efefef;
+    padding: 0 2em;
+}
+
+.site-header a,
+.site-header a:visited {
+    color: #efefef;
+}
+
+.logo {
+    float: left;
+}
+
+.flash-region {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    border-radius: 1em;
+}
+
+.flash-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
