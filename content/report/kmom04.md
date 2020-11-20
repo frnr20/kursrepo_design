@@ -1,6 +1,7 @@
 ---
 Title: Kmom04
 Description: Part 4
+Template: report
 ---
 
 Kursmoment 4
