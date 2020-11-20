@@ -1,7 +1,7 @@
 ---
 Title: Kmom05
 Description: Part 5
-Template: report
+Template: kmom
 ---
 
 Kursmoment 5

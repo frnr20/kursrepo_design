@@ -1,7 +1,7 @@
 ---
 Title: Kmom10
 Description: Part 10
-Template: report
+Template: kmom
 ---
 
 Kursmoment 10

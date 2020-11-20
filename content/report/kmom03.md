@@ -1,7 +1,7 @@
 ---
 Title: Kmom03
 Description: Part 3
-Template: report
+Template: kmom
 ---
 
 Kursmoment 3

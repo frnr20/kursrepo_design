@@ -1,7 +1,7 @@
 ---
 Title: Kmom02
 Description: Part 2
-Template: report
+Template: kmom
 ---
 
 Kursmoment 2

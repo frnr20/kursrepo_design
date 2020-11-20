@@ -1,7 +1,7 @@
 ---
 Title: Kmom06
 Description: Part 6
-Template: report
+Template: kmom
 ---
 
 Kursmoment 6
