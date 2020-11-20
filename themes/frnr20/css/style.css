@@ -766,6 +766,7 @@ h4,
 h5,
 h6 {
     text-align: center;
+    padding: 0;
   }
 
   .nav {
@@ -897,6 +898,7 @@ h6 {
 
 .kmom-box {
   border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
   grid-column: span 1;
   display: flex;
   flex-direction: column;
@@ -906,7 +908,13 @@ h6 {
 .kmom-box-project {
   grid-column: span 3;
   border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
   align-items: center;
+}
+
+.kmom-box-project a,
+.kmom-box-project p {
+  text-align: center;
 }
 
 .reportpage {
@@ -938,6 +946,18 @@ h6 {
 .kmom-box-project,
 .landingpage h1 {
     grid-column: span 1;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .reportpage {
+    display: grid;
+    gap: 1em 1 em;
+    grid-template-columns: 100% auto;
+  }
+
+  .report-nav {
+    display: none;
   }
 }
 /*!
