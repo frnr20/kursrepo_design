@@ -1,15 +1,43 @@
 ---
 Title: Report
 Description: The course report page
+Template: report
 ---
 
 Redovisningssida för design
 ==================
 
-* [kmom01](report/kmom01)
-* [kmom02](report/kmom02)
-* [kmom03](report/kmom03)
-* [kmom04](report/kmom04)
-* [kmom05](report/kmom05)
-* [kmom06](report/kmom06)
-* [kmom10](report/kmom10)
+<div class="kmom-box">
+    <a href="#"><h3>Kmom01</h3></a>
+    <p>Info om kursmomentet</p>
+</div>
+
+<div class="kmom-box">
+    <a href="#"><h3>Kmom02</h3></a>
+    <p>Info om kursmomentet</p>
+</div>
+
+<div class="kmom-box">
+    <a href="#"><h3>Kmom03</h3></a>
+    <p>Info om kursmomentet</p>
+</div>
+
+<div class="kmom-box">
+    <a href="#"><h3>Kmom04</h3></a>
+    <p>Info om kursmomentet</p>
+</div>
+
+<div class="kmom-box">
+    <a href="#"><h3>Kmom05</h3></a>
+    <p>Info om kursmomentet</p>
+</div>
+
+<div class="kmom-box">
+    <a href="#"><h3>Kmom06</h3></a>
+    <p>Info om kursmomentet</p>
+</div>
+
+<div class="kmom-box">
+    <a href="#"><h3>Kmom10</h3></a>
+    <p>Info om kursmomentet</p>
+</div>
