@@ -707,6 +707,8 @@ h4,
 h5,
 h6 {
   font-family: "Noto Serif", serif;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 /* Main */
@@ -885,6 +887,7 @@ h6 {
 .landingpage {
   display: grid;
   gap: 1em 1em;
+  grid-template-columns: 1fr, 1fr, 1fr;
 }
 
 .landingpage h1 {
@@ -909,6 +912,25 @@ h6 {
 .reportpage {
   display: grid;
   gap: 1em 1 em;
+  grid-template-columns: 20% auto;
+}
+
+.report-nav {
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 5em;
+}
+
+.report-nav a {
+  padding-top: 0.5em;
+  text-decoration: none;
+  color: black;
+}
+
+.report-text {
+  grid-column: span 1;
 }
 
 @media (max-width: 767px) {
