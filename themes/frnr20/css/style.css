@@ -882,6 +882,36 @@ h6 {
   text-align: center;
 }
 
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kmom-box-project {
+  grid-column: span 3;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 767px) {
+  .kmom-box,
+.kmom-box-project,
+.landingpage h1 {
+    grid-column: span 4;
+  }
+}
 /*!
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

@@ -37,7 +37,7 @@ Redovisningssida för design
     <p>Info om kursmomentet</p>
 </div>
 
-<div class="kmom-box">
+<div class="kmom-box-project">
     <a href="#"><h3>Kmom10</h3></a>
     <p>Info om kursmomentet</p>
 </div>
