@@ -1,6 +1,7 @@
 .landingpage {
     display: grid;
     gap: 1em 1em;
+    grid-template-columns: 1fr, 1fr, 1fr;
 }
 
 .landingpage h1 {
