@@ -7,6 +7,8 @@ Template: kmom
 Kursmoment 1
 ==================
 
+><a href="kmom01" class="hide"><i class="fas fa-arrow-left"></i> Föregående</a> <a href="kmom02" class="show">Nästa <i class="fas fa-arrow-right"></i> </a>
+
 >Jag har aldrig tidigare arbetat med ramverk eller andra CMS:er, detta är därmed en ny värld för mig att upptäcka. Det har varit väldigt mycket information att ta in och försöka bearbeta. Jag anser dock att jag lyckats uppfylla kraven för Kmom01 på min sida. Det finns väldigt mycket att förbättra och finslipa men det får ge sig med tiden när jag har fått en liten djupare förståelse för alla nya tekniker som jag stött på nu.
 
 >Tidigare har jag testat använda mig av Github men inte lyckats fullt ut. Nu har jag mycket tack vare bra instruktioner fått rätt på det och lyckats ladda upp mitt repo och tagga det allt eftersom jag gör ändringar som jag anser kan vara nyttiga att commita och tagga.

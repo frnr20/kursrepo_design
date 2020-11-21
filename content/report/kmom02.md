@@ -6,6 +6,7 @@ Template: kmom
 
 Kursmoment 2
 ==================
+><a href="kmom01" class="show"><i class="fas fa-arrow-left"></i> Föregående</a> <a href="kmom03" class="show">Nästa <i class="fas fa-arrow-right"></i> </a>
 
 >Jag tycker SASS verkar vara ett väldigt användbart verktyg. I detta kursmoment har jag främst börjat använda mig av variabler då det känns tryggast att börja med. Har läst på om många andra funktioner som finns i SASS och det kommer jag börja använda när jag är lite mer varm i kläderna. Det känns som SASS underlättar när man vill göra lite mer avancerad style eftersom det finns många inbyggda funktioner som omvandlas till ren CSS utan att man själv behöver koda den biten.
 

@@ -44,6 +44,16 @@
     grid-template-columns: 20% auto;
 }
 
+.hide {
+    text-decoration: none;
+    color: rgb(145, 141, 141);
+}
+
+.show {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
 .report-nav {
     grid-column: span 1;
     display: flex;
@@ -53,13 +63,14 @@
 }
 
 .report-nav a {
-    padding-top: 0.5em;
+    padding: 0.7em;
+    margin-top: 0.5em;
     text-decoration: none;
     color: rgb(0, 0, 0);
-}
-
-.report-nav .icon {
-    display: none;
+    border: 2px solid #efefef;
+    border-radius: 1em;
+    text-emphasis: center;
+    background-color: $topbottom-color;
 }
 
 .report-text {
