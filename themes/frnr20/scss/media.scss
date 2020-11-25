@@ -1,0 +1,63 @@
+@media (max-width: 980px) {
+    .main {
+        width: auto;
+        padding: 0;
+    }
+
+    .logo {
+        float: none;
+    }
+
+    .logo a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto; 
+    }
+
+    .flash-region {
+        width: auto;
+    }
+
+    .flash-img {
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+        box-sizing: inherit;
+    }
+
+    p {
+        text-align: unset;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-align: center;
+        padding: 0;
+    }
+
+    .nav {
+        clear: both;
+        padding: 0;
+        text-align: left;
+    }
+
+    .nav ul {
+        list-style-type: square;
+        padding-bottom: 1em;
+        text-align: left;
+    }
+
+    .nav ul li {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .nav ul li a {
+        padding: 0.5em 0;
+    }
+}

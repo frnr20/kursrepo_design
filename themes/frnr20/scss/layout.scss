@@ -1,0 +1,50 @@
+// layout.scss
+* {
+    font-family: $bodytext;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 80em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $base-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $titletext;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/* Main */
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    flex: 1 0 auto;
+    padding: 2em;
+}
+
+p {
+    padding: 1em;
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}

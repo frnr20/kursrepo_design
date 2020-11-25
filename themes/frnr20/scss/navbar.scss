@@ -1,0 +1,46 @@
+.hidden {
+    display: none !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0 none;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+.nav {
+    padding: 3em;
+    text-align: right;
+}
+
+.nav ul {
+    list-style: none;
+    margin: auto;
+    padding: auto;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+    padding: 0;
+    font-weight: bold;
+}
+
+.nav a:hover,
+.nav-toggle:hover {
+    text-decoration: underline;
+}
+
+.nav-toggle {
+    display: none;
+}

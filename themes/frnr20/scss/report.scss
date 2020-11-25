@@ -1,0 +1,98 @@
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+    grid-template-columns: 1fr, 1fr, 1fr;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box {
+    border: 2px solid #efefef;
+    border-radius: 1em;
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $topbottom-color;
+}
+
+.kmom-box a,
+.kmom-box p {
+    color: rgb(0, 0, 0);
+}
+
+.kmom-box-project {
+    grid-column: span 3;
+    border: 2px solid #efefef;
+    border-radius: 1em;
+    align-items: center;
+    background-color: $topbottom-color;
+}
+
+.kmom-box-project a,
+.kmom-box-project p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.reportpage {
+    display: grid;
+    gap: 1em 1 em;
+    grid-template-columns: 20% auto;
+}
+
+.hide {
+    text-decoration: none;
+    color: rgb(145, 141, 141);
+}
+
+.show {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.report-nav {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 5em;
+}
+
+.report-nav a {
+    padding: 0.7em;
+    margin-top: 0.5em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid #efefef;
+    border-radius: 1em;
+    text-emphasis: center;
+    background-color: $topbottom-color;
+}
+
+.report-text {
+    grid-column: span 1;
+}
+
+@media (max-width: 767px) {
+    .kmom-box,
+    .kmom-box-project,
+    .landingpage h1 {
+        grid-column: span 1;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+    .reportpage {
+        display: grid;
+        gap: 1em 1 em;
+        grid-template-columns: 100% auto;
+    }
+
+    .report-nav {
+        display: none;
+    }
+}

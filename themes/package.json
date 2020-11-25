@@ -6,10 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass frnr20/scss/style.scss frnr20/css/style.css --no-source-map --watch",
-    "watch-min": "sass frnr20/scss/style.scss frnr20/css/style.min.css --no-source-map --style compressed --watch",
-    "style": "sass frnr20/scss/style.scss frnr20/css/style.css --no-source-map",
-    "style-min": "sass frnr20/scss/style.scss frnr20/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass frnr20/scss/style.scss:frnr20/css/style.css frnr20/scss/style-dark.scss:frnr20/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass frnr20/scss/style.scss:frnr20/css/style.min.css frnr20/scss/style-dark.scss:frnr20/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-light": "sass frnr20/scss/style.scss frnr20/css/style.css --no-source-map",
+    "style-light-min": "sass frnr20/scss/style.scss frnr20/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass frnr20/scss/style-dark.scss frnr20/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass frnr20/scss/style-dark.scss frnr20/css/style-dark.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
