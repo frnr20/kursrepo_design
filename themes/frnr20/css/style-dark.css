@@ -358,7 +358,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #c8e1f5;
+  background-color: #323639;
 }
 
 h1,
@@ -370,6 +370,7 @@ h6 {
   font-family: "Noto Serif", serif;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  color: #efefef;
 }
 
 /* Main */
@@ -386,6 +387,11 @@ p {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
+  color: #efefef;
+}
+
+img {
+  filter: grayscale(90%);
 }
 
 @media (max-width: 980px) {
@@ -454,14 +460,14 @@ h6 {
 /* Header */
 .site-header {
   flex: 0 0 auto;
-  background-color: #94b9d5;
-  color: #efefef;
+  background-color: #202124;
+  color: #a8aaa9;
   padding: 0 2em;
 }
 
 .site-header a,
 .site-header a:visited {
-  color: #efefef;
+  color: #a8aaa9;
 }
 
 .logo {
@@ -480,6 +486,7 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
+  filter: grayscale(90%);
 }
 
 .hidden {
@@ -532,14 +539,15 @@ h6 {
 /* Footer */
 .site-footer {
   flex: 0 0 auto;
-  background: #94b9d5;
-  color: #efefef;
+  background: #202124;
+  color: #a8aaa9;
   padding: 2em;
   text-align: center;
 }
 
 .site-footer a {
-  color: #000;
+  color: #efefef;
+  text-decoration: none;
 }
 
 .site-footer p {
@@ -558,32 +566,32 @@ h6 {
 }
 
 .kmom-box {
-  border: 2px solid #efefef;
+  border: 2px solid #a8aaa9;
   border-radius: 1em;
   grid-column: span 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #94b9d5;
+  background-color: #202124;
 }
 
 .kmom-box a,
 .kmom-box p {
-  color: black;
+  color: #a8aaa9;
 }
 
 .kmom-box-project {
   grid-column: span 3;
-  border: 2px solid #efefef;
+  border: 2px solid #a8aaa9;
   border-radius: 1em;
   align-items: center;
-  background-color: #94b9d5;
+  background-color: #202124;
 }
 
 .kmom-box-project a,
 .kmom-box-project p {
   text-align: center;
-  color: black;
+  color: #a8aaa9;
 }
 
 .reportpage {
@@ -594,12 +602,12 @@ h6 {
 
 .hide {
   text-decoration: none;
-  color: #918d8d;
+  color: #5e5d5d;
 }
 
 .show {
   text-decoration: none;
-  color: black;
+  color: #a8aaa9;
 }
 
 .report-nav {
@@ -614,11 +622,11 @@ h6 {
   padding: 0.7em;
   margin-top: 0.5em;
   text-decoration: none;
-  color: black;
-  border: 2px solid #efefef;
+  color: #a8aaa9;
+  border: 2px solid #a8aaa9;
   border-radius: 1em;
   text-emphasis: center;
-  background-color: #94b9d5;
+  background-color: #202124;
 }
 
 .report-text {

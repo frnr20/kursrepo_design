@@ -3,13 +3,13 @@
 .site-header {
     flex: 0 0 auto;
     background-color: $topbottom-color;
-    color: #efefef;
+    color: $text-color;
     padding: 0 2em;
 }
 
 .site-header a,
 .site-header a:visited {
-    color: #efefef;
+    color: $text-color;
 }
 
 .logo {
@@ -28,4 +28,5 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
+    filter: $img-filter;
 }

@@ -10,7 +10,7 @@
 }
 
 .kmom-box {
-    border: 2px solid #efefef;
+    border: 2px solid $text-color;
     border-radius: 1em;
     grid-column: span 1;
     display: flex;
@@ -21,12 +21,12 @@
 
 .kmom-box a,
 .kmom-box p {
-    color: rgb(0, 0, 0);
+    color: $reportbox-text;
 }
 
 .kmom-box-project {
     grid-column: span 3;
-    border: 2px solid #efefef;
+    border: 2px solid $text-color;
     border-radius: 1em;
     align-items: center;
     background-color: $topbottom-color;
@@ -35,7 +35,7 @@
 .kmom-box-project a,
 .kmom-box-project p {
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: $reportbox-text;
 }
 
 .reportpage {
@@ -46,12 +46,12 @@
 
 .hide {
     text-decoration: none;
-    color: rgb(145, 141, 141);
+    color: $hide-text;
 }
 
 .show {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: $reportbox-text;
 }
 
 .report-nav {
@@ -66,8 +66,8 @@
     padding: 0.7em;
     margin-top: 0.5em;
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    border: 2px solid #efefef;
+    color: $reportbox-text;
+    border: 2px solid $text-color;
     border-radius: 1em;
     text-emphasis: center;
     background-color: $topbottom-color;

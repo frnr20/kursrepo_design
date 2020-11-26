@@ -3,13 +3,14 @@
 .site-footer {
     flex: 0 0 auto;
     background: $topbottom-color;
-    color: #efefef;
+    color: $text-color;
     padding: 2em;
     text-align: center;
 }
 
 .site-footer a {
-    color: #000;
+    color: $icon-color;
+    text-decoration: none;
 }
 
 .site-footer p {
