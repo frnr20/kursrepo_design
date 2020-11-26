@@ -9,7 +9,8 @@
 
 .site-header a,
 .site-header a:visited {
-    color: $text-color;
+    color: $bodytext-color;
+    text-decoration: none;
 }
 
 .logo {

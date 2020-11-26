@@ -358,7 +358,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #323639;
+  background-color: rgba(32, 33, 36, 0.9);
 }
 
 h1,
@@ -467,7 +467,8 @@ h6 {
 
 .site-header a,
 .site-header a:visited {
-  color: #a8aaa9;
+  color: #efefef;
+  text-decoration: none;
 }
 
 .logo {
