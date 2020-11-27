@@ -2,11 +2,9 @@ Webbplatsers färger och känslan de signalerar
 =======================
 ><a href="01_colors" class="hide"><i class="fas fa-arrow-left"></i> Föregående</a> <a href="02_load" class="show-analysis">Nästa <i class="fas fa-arrow-right"></i> </a>
 
-Urvalet för den aktuella analysen är tre olika webbplatser med fokus på deras val av färger och typografi. Dessa tre sidor kommer analyseras för att förstå vad de vill framhäva för känsla.
-
 Urval
 -----------------------
-
+Urvalet för den aktuella analysen är tre olika webbplatser med fokus på deras val av färger och typografi. Dessa tre sidor kommer analyseras för att förstå vad de vill framhäva för känsla.
 Webbplasterna som kommer analyseras är <a href="https://www.ving.se/" class="show-analysis">Ving.se</a>, <a href="https://www.tui.se/" class="show-analysis">Tui.se</a> och <a href="https://www.resia.se/" class="show-analysis">Resia.se</a>.
 Urvalet gjordes för att det är tre olika reseaktörer som riktar sig mot samma kunder. Således är det intressant att jämföra hur de valt att använda sig av färg och typografi för att locka till sig kunder.
 

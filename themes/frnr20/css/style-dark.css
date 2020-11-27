@@ -373,6 +373,13 @@ h6 {
   color: #efefef;
 }
 
+h4 {
+  font-family: "Noto Serif", serif;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #efefef;
+}
+
 /* Main */
 .main {
   margin-left: auto;
@@ -388,6 +395,10 @@ p {
   overflow-wrap: break-word;
   word-wrap: break-word;
   color: #efefef;
+}
+
+table {
+  padding: 1em;
 }
 
 img {

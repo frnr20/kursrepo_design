@@ -1,5 +1,11 @@
 @import '../../node_modules/normalize.css/normalize';
-@import 'base-dark';
+@import 'variables-dark';
+@import 'layout';
+@import 'media';
+@import 'header';
+@import 'navbar';
+@import 'footer';
+@import 'report';
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
