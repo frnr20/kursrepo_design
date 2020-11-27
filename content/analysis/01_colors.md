@@ -27,7 +27,7 @@ Ving.se använder sig av nedan färgpalett:
 <td style="height: 50px; width: 50px; background-color: rgb(28, 152 , 132)">
 </tr>
 </table>
-![profilbild](%assets_url%../img/analysis-color/ving1.jpg)
+![Ving](%assets_url%/img/analysis-color/ving1.jpg)
 <a href="https://www.ving.se/" class="show-analysis">Ving.se</a> använder sig av nedan typografi för sina olika rubriker och brödtext:
 
 >H1 - ThomasHeadlineBlack (60px), Arial Black.
@@ -52,7 +52,7 @@ Tui.se använder sig av nedan färgpalett:
 <td style="height: 50px; width: 50px; background-color: rgb(235, 15 , 21)">
 </tr>
 </table>
-![profilbild](%assets_url%../img/analysis-color/tui1.jpg)
+![Tui](%assets_url%/img/analysis-color/tui1.jpg)
 <a href="https://www.Tui.se/" class="show-analysis">Tui.se</a> använder sig av nedan typografi för sina olika rubriker och brödtext:
 
 >H1 - Tui Type Light (50px), sans-serif.
@@ -76,7 +76,7 @@ Resia.se använder sig av nedan färgpalett:
 <td style="height: 50px; width: 50px; background-color: rgb(99, 38 , 89)">
 </tr>
 </table>
-![profilbild](%assets_url%../img/analysis-color/resia1.jpg)
+![Resia](%assets_url%/img/analysis-color/resia1.jpg)
 <a href="https://www.resia.se/" class="show-analysis">Resia.se</a> använder sig av nedan typografi för sina olika rubriker och brödtext:
 
 >H1 - GTWalsheim (26px), Lato, sans-serif.
