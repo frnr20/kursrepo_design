@@ -14,6 +14,6 @@ Kursmoment 4
 
 >Jag har genomgående samma färg på bakgrund, header, footer och text. Typ av accentfärg återfinns i min flashbild där det finns inslag av grönt som livar upp sidan och drar ögonen åt sig vid första anblick. Det är precis det jag vill komma åt med valet av flashbild. 
 
->Mitt mörka tema är i stort sätt en kopia på mitt vanliga tema. Jag har samma layout för båda mina teman men valde att spara färger på bakgrund och text samt filter för bilderna i variabler som jag sedan använder mig av i olika scss-moduler. Dessa kopplas sedan samman via import i två olika filer, style.scss och style-dark.scss.
+>Mitt mörka tema är i stort sett en kopia på mitt vanliga tema. Jag har samma layout för båda mina teman men valde att spara färger på bakgrund och text samt filter för bilderna i variabler som jag sedan använder mig av i olika scss-moduler. Dessa kopplas sedan samman via import i två olika filer, style.scss och style-dark.scss.
 
 >Kursmomentets TIL är hur man kan använda olika färgscheman och vad man ska tänka på vid val av färg. Det har som jag nämnde ovan vidgat min syn på hur jag ser på webbplatser och reagerar direkt på deras val av tillexempel accentfärg och vad den används för. 
