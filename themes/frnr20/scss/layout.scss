@@ -33,6 +33,13 @@ h6 {
     color: $bodytext-color;
 }
 
+h4 {
+    font-family: $titletext;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: $bodytext-color; 
+}
+
 /* Main */
 
 .main {
@@ -49,6 +56,10 @@ p {
     overflow-wrap: break-word;
     word-wrap: break-word;
     color: $bodytext-color;
+}
+
+table {
+    padding: 1em;
 }
 
 img {

@@ -611,6 +611,10 @@ h6 {
   color: #a8aaa9;
 }
 
+.show-analysis {
+  color: #a8aaa9;
+}
+
 .report-nav {
   grid-column: span 1;
   display: flex;
