@@ -1,5 +1,4 @@
 .gallery {
-    width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -9,14 +8,13 @@
 
 @media (max-width: 992px) {
     .gallery {
-        width: 95%;
+        width: 100%;
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 767px) {
     .gallery {
-        width: 95%;
         grid-template-columns: 1fr;
     }
 }

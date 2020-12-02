@@ -5,6 +5,7 @@
 
 * {
     box-sizing: border-box;
+    border: 0 none;
     margin: 0;
     padding: 0;
 }
@@ -64,4 +65,5 @@ table {
 
 img {
     filter: $img-filter;
+    max-width: 100%;
 }

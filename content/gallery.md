@@ -8,7 +8,7 @@ images:
     - alt: pic
       url: pic-2.jpg?crop-to-fit&aspect-ratio=1:1
     - alt: pic
-      url: pic-3.jpp?crop-to-fit&aspect-ratio=1:1
+      url: pic-3.jpg?crop-to-fit&aspect-ratio=1:1
     - alt: pic
       url: pic-4.jpg?crop-to-fit&aspect-ratio=1:1
     - alt: pic
