@@ -467,27 +467,6 @@ h6 {
     text-align: center;
     padding: 0;
   }
-
-  .nav {
-    clear: both;
-    padding: 0;
-    text-align: left;
-  }
-
-  .nav ul {
-    list-style-type: square;
-    padding-bottom: 1em;
-    text-align: left;
-  }
-
-  .nav ul li {
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .nav ul li a {
-    padding: 0.5em 0;
-  }
 }
 /* Header */
 .site-header {
@@ -543,14 +522,33 @@ h6 {
 }
 
 .nav {
-  padding: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 2.5em;
   text-align: right;
+  font-size: 1.2em;
+  background-color: #94b9d5;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav a:visited {
+  color: #000;
+}
+
+.nav a:hover,
+.nav-toggle:hover {
+  text-decoration: underline;
+  color: #efefef;
 }
 
 .nav ul {
   list-style: none;
-  margin: auto;
-  padding: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .nav ul li {
@@ -560,15 +558,61 @@ h6 {
   font-weight: bold;
 }
 
-.nav a:hover,
-.nav-toggle:hover {
-  text-decoration: underline;
-}
-
 .nav-toggle {
   display: none;
 }
 
+.session-links {
+  float: left;
+  padding-left: 2%;
+}
+
+.session-links a {
+  margin-left: 7px;
+}
+
+.session-links a:hover {
+  text-decoration: none;
+}
+
+/* Small devices */
+@media (max-width: 960px) {
+  .nav {
+    clear: both;
+    padding: 0;
+  }
+
+  .nav ul {
+    padding-top: 1em;
+    padding-bottom: 2em;
+  }
+
+  .nav ul li {
+    display: block;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .js .nav-toggle > * {
+    vertical-align: middle;
+  }
+}
 /* Footer */
 .site-footer {
   flex: 0 0 auto;

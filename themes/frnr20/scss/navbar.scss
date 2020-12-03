@@ -15,11 +15,10 @@
 
 .slide {
     overflow-y: hidden !important;
-    -webkit-transition: height 0.5s ease-in !important;
     transition: height 0.5s ease-in !important;
 }
 
-#nav {
+.nav {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     padding-right: 2.5em;
@@ -28,71 +27,76 @@
     background-color: $topbottom-color;
 }
 
-#nav a {
+.nav a {
     text-decoration: none;
     color: $bodytext-color;
 }
 
-#nav a:visited {
+.nav a:visited {
     color: $bodytext-color;
 }
 
-#nav a:hover, #nav-toggle:hover {
+.nav a:hover,
+.nav-toggle:hover {
     text-decoration: underline;
     color: $text-color;
 }
 
-#nav ul {
+.nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#nav ul li {
+.nav ul li {
     display: inline-block;
     margin-left: 1em;
     padding: 0;
     font-weight: bold;
 }
 
-#nav-toggle {
+.nav-toggle {
     display: none;
 }
 
-#session-links {
+.session-links {
     float: left;
     padding-left: 2%;
 }
 
-#session-links a {
+.session-links a {
     margin-left: 7px;
 }
 
-#session-links a:hover {
+.session-links a:hover {
     text-decoration: none;
 }
 
 /* Small devices */
 
 @media (max-width: 960px) {
-    #nav {
+    .nav {
         clear: both;
         padding: 0;
     }
-    #nav ul {
+
+    .nav ul {
         padding-top: 1em;
         padding-bottom: 2em;
     }
-    #nav ul li {
+
+    .nav ul li {
         display: block;
         margin-left: 0;
         text-align: center;
     }
-    #nav ul li a {
+
+    .nav ul li a {
         display: block;
         padding: 0.5em 0;
     }
-    .js #nav-toggle {
+
+    .js .nav-toggle {
         display: block;
         float: right;
         width: 2em;
@@ -102,7 +106,8 @@
         text-align: center;
         cursor: pointer;
     }
-    .js #nav-toggle>* {
+
+    .js .nav-toggle>* {
         vertical-align: middle;
     }
 }
