@@ -29,22 +29,31 @@
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <header class="site-header">
-        {% if pages["_meta"].meta.logo %}
-            <div class="logo" aria-hidden="true">
-                <a href="{{ "index"|link }}">
-                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
-                </a>
-            </div>
-        {% endif %}
-        
-        <div class="nav" role="navigation" tabindex="-1">
-            <ul>
-                {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
-                <li{% if page.id == current_page.id %} class="active" {% endif %}>
-                    <a href="{{ page.url }}">{{ page.title }}</a>
-                    </li>
+        <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+            <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
+            <span class="sr-only">Toggle Menu</span>
+        </a>
+        <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
+            <a href="{{ "index"|link }}">
+                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+            </a>
+        </div>
+        <div class="nav">
+            <div id="nav" role="navigation" tabindex="-1">
+                <ul>
+                    {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+                        <li{% if page.id == current_page.id %} class="active"{% endif %}>
+                            <a href="{{ page.url }}">
+                                {% if page.meta.icon %}
+                                    <i class="{{ page.meta.icon }}"></i>
+                                {% else %}
+                                    {{ page.title }}
+                                {% endif %}
+                            </a>
+                        </li>
                     {% endfor %}
-            </ul>
+                </ul>
+            </div>
         </div>
     </header>
 
