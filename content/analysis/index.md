@@ -14,7 +14,7 @@ Redovisningssida för design
 
 <div class="kmom-box">
     <a href="analysis/02_load"><h3>Kmom05 - Laddningstider</h3></a>
-    <p>Mer info kommer.</p>
+    <p>Analys av laddningstid.</p>
 </div>
 
 <div class="kmom-box">
