@@ -19,7 +19,13 @@
     background-color: $topbottom-color;
 }
 
-.kmom-box a,
+.kmom-box a {
+    color: $reportbox-text;
+    font-weight: 700;
+    font-size: 120%;
+    margin-top: 0.2em;
+}
+
 .kmom-box p {
     color: $reportbox-text;
 }
@@ -32,10 +38,23 @@
     background-color: $topbottom-color;
 }
 
-.kmom-box-project a,
+
+.kmom-box-project a {
+    text-align: center;
+    display: block;
+    color: $reportbox-text;
+    font-weight: 700;
+    font-size: 120%;
+    margin-top: 0.2em;
+}
+
 .kmom-box-project p {
     text-align: center;
     color: $reportbox-text;
+}
+
+.small-header {
+    font-weight: 700;
 }
 
 .reportpage {
@@ -47,6 +66,7 @@
 .hide {
     text-decoration: none;
     color: $hide-text;
+    visibility: hidden;
 }
 
 .show {

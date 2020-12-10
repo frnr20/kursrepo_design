@@ -652,7 +652,13 @@ h6 {
   background-color: #202124;
 }
 
-.kmom-box a,
+.kmom-box a {
+  color: #a8aaa9;
+  font-weight: 700;
+  font-size: 120%;
+  margin-top: 0.2em;
+}
+
 .kmom-box p {
   color: #a8aaa9;
 }
@@ -665,7 +671,15 @@ h6 {
   background-color: #202124;
 }
 
-.kmom-box-project a,
+.kmom-box-project a {
+  text-align: center;
+  display: block;
+  color: #a8aaa9;
+  font-weight: 700;
+  font-size: 120%;
+  margin-top: 0.2em;
+}
+
 .kmom-box-project p {
   text-align: center;
   color: #a8aaa9;
@@ -680,6 +694,7 @@ h6 {
 .hide {
   text-decoration: none;
   color: #5e5d5d;
+  visibility: hidden;
 }
 
 .show {

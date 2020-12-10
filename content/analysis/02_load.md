@@ -20,21 +20,21 @@ Resultat
 -----------------------
 >Här finns ett <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vReTeApS5N3eQynCSlKWcTNejed81lCngMEN6oquSNR2FXjwV1n5VChXMTJFO1sRBiEkJl9ZojHS5Jw/pubhtml?gid=0&single=true" class="show-analysis">Excelark</a> med en sammanställning av webbplatsernas värde.
 
-><h4><a href="https://www.vaningen.se/" class="show-analysis">Vaningen.se:</a></h4>
+><p class="small-header" ><a href="https://www.vaningen.se/" class="show-analysis">Vaningen.se:</a></p>
 ![vaningen](%assets_url%/img/analysis-loading/vaningen1.png)
 
 >Våningen och villans webbplats får ett genomsnittsbetyg för desktop på 65,67 och för mobila enheter 15,33. Webbplatsens totala storlek var 22,67 MB och laddningstiden var 5,89 sekunder. Antalet resurser som laddades in var 107 stycken. 
 
 >Webbplatsens största tid och storleksbov är dess bilder som man hade kunnat komprimera för att göra sidan mer effektiv. Det finns även bilder som försöker laddas in men som inte kan lokaliseras, det påverkar laddningstiden negativt i detta fall. Enligt PageSpeed Insights rekommenderas man att koda bilderna mer effektivt och undvika tomma resurser som laddas in. 
 
-><h4><a href="https://www.bjurfors.se/" class="show-analysis">Bjurfors.se:</a></h4>
+><p class="small-header" ><a href="https://www.bjurfors.se/" class="show-analysis">Bjurfors.se:</a></p>
 ![bjurfors](%assets_url%/img/analysis-loading/bjurfors1.png)
 
 >Bjurfors webbplats får ett genomsnittsbetyg för desktop på 44,33 och för mobila enheter 14,33. Webbplatsens totala storlek var 10 MB och laddningstiden var 6,52 sekunder. Antalet resurser som laddades in var 222 stycken. 
 
 >Enligt PageSpeed Insight finns det tid att spara vid ladding av viktiga resurser. Det är på Bjurfors hemsida framförallt typsnittet som man kunnat ladda in i förväg alternativt ändra typsnitt till något typsnitt som finns förinstallerat på de flesta datorer och mobilia enheter. Eftersomd det är bilderna på hemsidan som ska visa upp objekten så kan man välja att använda sig av ett typsnitt som laddas in fort. 
 
-><h4><a href="https://www.svenskfast.se/" class="show-analysis">Svenskfast.se:</a></h4>
+><p class="small-header" ><a href="https://www.svenskfast.se/" class="show-analysis">Svenskfast.se:</a></p>
 ![svenskfast](%assets_url%/img/analysis-loading/svenskfast1.png)
 
 >Svensk fastighetsförmedlings webbplats får ett genomsnittsbetyg för desktop på 82,33 och för mobila enheter 29,33. Webbplatsens totala storlek var 3,6 MB och laddningstiden var 4,46 sekunder. Antalet resurser som laddades in var 93 stycken. 

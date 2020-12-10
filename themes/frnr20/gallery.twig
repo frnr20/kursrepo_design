@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="sv" class="no-js">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -35,7 +35,7 @@
         </a>
         <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
             <a href="{{ "index"|link }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="home" />
             </a>
         </div>
         <div class="nav">
@@ -58,7 +58,7 @@
     </header>
 
     <div class="flash-region">
-        <img class="flash-img" src="{{ base_url }}/image/elefanter_flash.jpg">
+        <img class="flash-img" src="{{ base_url }}/image/elefanter_flash.jpg" alt="elephant">
     </div>
 
     <div class="main" id="main" role="main">
@@ -67,7 +67,7 @@
                 <div>
                     <a href="{{ base_url }}/image/gallery/{{ image.url }}" target="_blank">
                         <picture>
-                            <source media="(min-width: 668px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}">
+                            <source media="(min-width: 668px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}&w=20%">
                             <source media="(min-width: 376px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}&w=667">
                             <img src="{{ base_url }}/image/gallery/{{ image.url }}&w=375" alt="{{ image.alt }}">
                         </picture>

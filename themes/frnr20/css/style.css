@@ -652,7 +652,13 @@ h6 {
   background-color: #94b9d5;
 }
 
-.kmom-box a,
+.kmom-box a {
+  color: black;
+  font-weight: 700;
+  font-size: 120%;
+  margin-top: 0.2em;
+}
+
 .kmom-box p {
   color: black;
 }
@@ -665,7 +671,15 @@ h6 {
   background-color: #94b9d5;
 }
 
-.kmom-box-project a,
+.kmom-box-project a {
+  text-align: center;
+  display: block;
+  color: black;
+  font-weight: 700;
+  font-size: 120%;
+  margin-top: 0.2em;
+}
+
 .kmom-box-project p {
   text-align: center;
   color: black;
@@ -680,6 +694,7 @@ h6 {
 .hide {
   text-decoration: none;
   color: #918d8d;
+  visibility: hidden;
 }
 
 .show {

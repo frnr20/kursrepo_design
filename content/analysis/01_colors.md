@@ -16,7 +16,7 @@ För att undersöka webbplatsernas olika färgpaletter används hemsidan <a href
 Resultat
 -----------------------
 
-><h4><a href="https://www.ving.se/" class="show-analysis">Ving.se:</a></h4>
+><p class="small-header" ><a href="https://www.ving.se/" class="show-analysis">Ving.se:</a></p>
 Ving.se använder sig av nedan färgpalett:
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -41,7 +41,7 @@ Ving.se använder sig av nedan färgpalett:
 Kommentar Ving: Vi kan se att Ving använder sig av sans-serif i sin typografi över hela webbplatsen. De har även valt att använda en egen font som förstaval i rubrikerna. I brödetexten återges ett annat typsnitt vilket gör lite extra kontrast mellan rubrik och brödtext. Som återges av bilden ovan har Ving ett komplement färgschema som används. Man går från det orangea hållet till det gröna och låter bakgrundsfärgen hamna mitt mellan dessa. Orange används främst som accentfärg för att dra blicken till sig.
 Jag anser att ving återskapar den profilen de vill ha med hjälp av sitt val av färg och typografi, en känsla av billigt, bra och enkelt.
 
-><h4><a href="https://www.tui.se/" class="show-analysis">Tui.se:</a></h4>
+><p class="small-header" ><a href="https://www.tui.se/" class="show-analysis">Tui.se:</a></p>
 Tui.se använder sig av nedan färgpalett:
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -65,7 +65,7 @@ Tui.se använder sig av nedan färgpalett:
 
 Kommentar Tui: Vi kan se att även Tui använder sig av sans-serif i sin typografi över hela webbplatsen. De har också valt att använda en egen font som förstaval i rubrikerna men även i brödtxten. Som återges av bilden ovan har Ving ett analogt färgschema som används. Man väljer att använda sig av närliggande färger och sedan en röd accentfärg dit man vill att användaren ska fokusera. Jag anser att tui återskapar den profilen de vill ha med hjälp av sitt val av färg och typografi, en känsla av lugn och välbefinnande.
 
-><h4><a href="https://www.resia.se/" class="show-analysis">Resia.se:</a></h4>
+><p class="small-header" ><a href="https://www.resia.se/" class="show-analysis">Resia.se:</a></p>
 Resia.se använder sig av nedan färgpalett:
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
