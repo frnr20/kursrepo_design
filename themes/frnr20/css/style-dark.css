@@ -685,6 +685,10 @@ h6 {
   color: #a8aaa9;
 }
 
+.small-header {
+  font-weight: 700;
+}
+
 .reportpage {
   display: grid;
   gap: 1em 1 em;
