@@ -18,6 +18,6 @@ Redovisningssida för design
 </div>
 
 <div class="kmom-box">
-    <a href="analysis/03_design_principles">Kmom02 - Design</a>
-    <p>Mer info kommer.</p>
+    <a href="analysis/03_design_principles">Kmom06 - Design</a>
+    <p>Analys av designprinciper.</p>
 </div>
